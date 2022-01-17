@@ -5,10 +5,27 @@ import { Summary } from "./Summary";
 
 export const Main = () => {
   return (
-    <div className={clsx('max-w-3xl', 'mx-auto', 'flex', 'flex-col', 'gap-3')}>
+    <div className={clsx('max-w-3xl', 'mx-auto', 'flex', 'flex-col', 'gap-4', 'my-8')}>
       <Header />
       <hr />
       <Summary />
+      <hr />
+      <section>
+        <header>
+          <h3>
+            Frontend Developer -{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://truelayer.com/"
+            >
+              Truelayer
+            </a>
+          </h3>
+          <h4>September 2021 - Present</h4>
+        </header>
+ 
+      </section>
       <hr />
       <section>
         <header>
@@ -22,7 +39,7 @@ export const Main = () => {
               OVO Energy
             </a>
           </h3>
-          <h4>April 2018 - Present</h4>
+          <h4>April 2018 - September 2021</h4>
         </header>
         <p>
           As a Frontend Developer at OVO Energy I work as part of a team to
