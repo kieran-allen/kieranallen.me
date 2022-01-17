@@ -17,7 +17,7 @@
         },
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self';"
+          "value": "default-src 'self'; font-src https://fonts.gstatic.com;"
         }
       ]
     }
