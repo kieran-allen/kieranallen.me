@@ -1,6 +1,8 @@
+import clsx from "clsx";
+
 export const Header = () => {
   return (
-    <header>
+    <header className={clsx('flex', 'flex-col', 'gap-1')}>
       <h1>Kieran Allen</h1>
       <h2>Frontend Developer</h2>
       <h3>London, United Kingdom</h3>

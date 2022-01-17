@@ -3,7 +3,7 @@ export const Education = () => {
     <section>
       <header>
         <h3>
-          Education -
+          Education -{" "}
           <a
             target="_blank"
             rel="noopener noreferrer"

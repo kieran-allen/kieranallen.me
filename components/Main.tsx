@@ -1,10 +1,11 @@
+import clsx from "clsx";
 import { Education } from "./Education";
 import { Header } from "./Header";
 import { Summary } from "./Summary";
 
 export const Main = () => {
   return (
-    <div>
+    <div className={clsx('max-w-3xl', 'mx-auto', 'flex', 'flex-col', 'gap-3')}>
       <Header />
       <hr />
       <Summary />
@@ -12,7 +13,7 @@ export const Main = () => {
       <section>
         <header>
           <h3>
-            Frontend Developer -
+            Frontend Developer -{" "}
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -62,7 +63,7 @@ export const Main = () => {
       <section>
         <header>
           <h3>
-            UI Developer -
+            UI Developer -{" "}
             <a
               target="_blank"
               rel="noopener noreferrer"
