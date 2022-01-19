@@ -22,14 +22,6 @@ export const Header = () => {
         >
           LinkedIn
         </a>
-        <span> / </span>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="./kieranallen_pub.gpg"
-        >
-          GPG Public Key
-        </a>
       </nav>
     </header>
   );

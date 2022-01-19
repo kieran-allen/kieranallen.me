@@ -51,4 +51,8 @@ li {
   @apply list-disc ml-4;
 }
 
+nav span {
+  @apply dark:text-gray-500;
+}
+
 @tailwind utilities;
