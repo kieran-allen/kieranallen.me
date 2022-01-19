@@ -43,7 +43,7 @@ section {
 }
 
 hr {
-  @apply dark:text-gray-200;
+  @apply dark:text-gray-500;
 }
 
 li {
