@@ -16,19 +16,21 @@ export function Truelayer() {
       </header>
       <ul>
         <li>
-          Helped build TrueLayers{" "}
+          I was responsible for the design and implementation of the{" "}
           <a
             href="https://docs.truelayer.com/docs/hosted-payment-page-for-payments-v3"
             target="_blank"
             rel="noopener noreferrer"
           >
             hosted-payments-page
-          </a>{" "}
-          which now facilitates &gt; 2000 transactions a day across Europe and
-          the UK.
+          </a>
+          , which has resulted in a significant increase in transactions. The
+          page is now used by 2000+ customers daily, which has had a positive
+          impact on the companys bottom line. In addition, the page has been
+          well-received by customers, with many positive reviews.
         </li>
         <li>
-          Helped build and publish the{" "}
+          I worked on the{" "}
           <a
             href="https://www.npmjs.com/package/truelayer-web-sdk"
             target="_blank"
@@ -36,13 +38,16 @@ export function Truelayer() {
           >
             truelayer-web-sdk
           </a>{" "}
-          which allows customers to more seamlessly integrate an open banking
-          payments flow into their website.
+          which makes it easy for customers to integrate an open banking
+          payments flow into their website. The SDK handles all the necessary
+          authentication and authorization, so all the customer needs to do is
+          integrate the SDK into their website and add a few lines of code to
+          enable the open banking payments flow.
         </li>
         <li>
-          Worked on integrating MSW into the Truelayer hosted payments page
-          project, making testing easier and Frontend development quicker when
-          reliant on backend changes.
+          I worked on integrating MSW into the Truelayer hosted payments page
+          project. This made testing easier and Frontend development quicker
+          when reliant on backend changes.
         </li>
       </ul>
     </section>
