@@ -8,6 +8,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Kieran Allen - CV</title>
         <meta name="description" content="Kieran Allen CV" />
+        <meta name="keywords" content="frontend,developer,cv,kieran,allen,london”"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Main />
