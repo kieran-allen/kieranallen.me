@@ -36,7 +36,7 @@ export function Truelayer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            truelayer-web-sdk
+            truelayer-embedded-payment-page
           </a>{" "}
           which makes it easy for customers to integrate an open banking
           payments flow into their website. The SDK handles all the necessary
