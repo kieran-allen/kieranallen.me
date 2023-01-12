@@ -32,7 +32,7 @@ export function Truelayer() {
         <li>
           I worked on the{" "}
           <a
-            href="https://www.npmjs.com/package/truelayer-web-sdk"
+            href="https://www.npmjs.com/package/truelayer-embedded-payment-page"
             target="_blank"
             rel="noopener noreferrer"
           >
