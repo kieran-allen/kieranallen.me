@@ -5,6 +5,7 @@ import { Playtech } from "./Experience/Playtech";
 import { Summary } from "./Summary";
 import { OvoEnergy } from "./Experience/OvoEnergy";
 import { Truelayer } from "./Experience/Truelayer";
+import { Ledger } from "./Experience/Ledger";
 
 export const Main = () => {
   return (
@@ -12,6 +13,8 @@ export const Main = () => {
       <Header />
       <hr />
       <Summary />
+      <hr />
+      <Ledger />
       <hr />
       <Truelayer />
       <hr />
