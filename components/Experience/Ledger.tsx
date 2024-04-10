@@ -18,7 +18,7 @@ export function Ledger() {
         <li>
           As part of a team developing live apps that interact with the Ledger
           Live Hub, I play a key role in building and enhancing the user
-          experience for Ledger's crypto hardware wallet customers.
+          experience for Ledger&apos;s crypto hardware wallet customers.
         </li>
         <li>
           Developed a create-live-app repository that can be used by other
