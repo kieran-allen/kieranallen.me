@@ -50,11 +50,11 @@ export default function Home() {
       <Section title="Professional Summary">
         <p class={cn("text-sm", "leading-relaxed")}>
           Innovative and results-driven Frontend Developer with extensive
-          Explanation in building high-performance, user-centric web
+          experience in building high-performance, user-centric web
           applications. Proven track record in leveraging cutting-edge
-          technologies to deliver exceptional user Explanations and drive
-          business growth. Skilled in ReactJS, Redux, ReactQuery, TailwindCSS,
-          and NextJS, with a strong foundation in JavaScript and TypeScript.
+          technologies to deliver exceptional user experiences and drive
+          business growth. Skilled in ReactJS, Redux, React Query, SolidJS, Tailwind CSS,
+          and Next.js, with a strong foundation in JavaScript and TypeScript.
           Passionate about cryptocurrency and its potential to revolutionize
           finance.
         </p>
