@@ -1,4 +1,4 @@
-import { For, Match, Switch } from "solid-js";
+import { For, Match, Show, Switch } from "solid-js";
 import { Company } from "~/consts";
 import { cn } from "~/lib/utils";
 
@@ -6,13 +6,27 @@ type ExplanationProps = {
   fromTo: string;
   list?: string[];
   description?: string;
-  company: Company;
+  company?: Company;
 };
 
-export function Explanation({ fromTo, list, description, company }: ExplanationProps) {
+export function Explanation({
+  fromTo,
+  list,
+  description,
+  company,
+}: ExplanationProps) {
   return (
     <section class={cn("flex", "gap-4", "flex-col")}>
-      <h3>{company.name}</h3>
+      <Show when={company}>
+        <a
+          href={company?.link}
+          class={cn("underline", "font-semibold")}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {company!.name}
+        </a>
+      </Show>
       <div>{fromTo}</div>
       <Switch fallback={null}>
         <Match when={list?.length}>

@@ -7,20 +7,20 @@
     "start": "vinxi start"
   },
   "dependencies": {
-    "@fontsource/inter": "^5.0.20",
-    "@kobalte/core": "^0.13.6",
+    "@fontsource/inter": "^5.1.0",
+    "@kobalte/core": "^0.13.7",
     "@solidjs/meta": "^0.29.4",
-    "@solidjs/router": "^0.14.1",
-    "@solidjs/start": "^1.0.6",
-    "autoprefixer": "^10.4.19",
+    "@solidjs/router": "^0.14.10",
+    "@solidjs/start": "^1.0.10",
+    "autoprefixer": "^10.4.20",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "postcss": "^8.4.38",
-    "solid-js": "^1.8.18",
-    "tailwind-merge": "^2.5.2",
-    "tailwindcss": "^3.4.10",
+    "postcss": "^8.4.47",
+    "solid-js": "^1.9.3",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss": "^3.4.14",
     "tailwindcss-animate": "^1.0.7",
-    "vinxi": "^0.4.1"
+    "vinxi": "^0.4.3"
   },
   "engines": {
     "node": ">=18"

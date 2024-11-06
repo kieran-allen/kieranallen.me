@@ -64,7 +64,7 @@ export default function Home() {
         <Timeline
           items={experiences.map((exp) => ({
             title: exp.title,
-            description: <Explanation fromTo={exp.fromTo} list={exp.list} />,
+            description: <Explanation fromTo={exp.fromTo} list={exp.list} company={exp.company} />,
           }))}
           activeItem={Infinity}
         />
