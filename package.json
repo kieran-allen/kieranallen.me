@@ -22,9 +22,6 @@
     "tailwindcss-animate": "^1.0.7",
     "vinxi": "^0.4.3"
   },
-  "overrides": {
-    "is-wsl": "0.0.0"
-  },
   "engines": {
     "node": ">=20.0.0"
   }
